@@ -1,1 +1,115 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* font family */
+  --heading: "Anton", sans-serif;
+  --body: "Roboto", sans-serif;
+
+  /* colors */
+  --navy: #2e3c40;
+  --midBlue: #3b7a8c;
+  --lightBlue: #9ccbd9;
+  --pink: #9ccbd9;
+  --violet: #3f3250;
+  --charcoal: #30343b;
+  --grey-beige: #cob3a0;
+  --midGrey: #a8acb7;
+  --lightGrey: #e8e8f2;
+  --white: #ffffff;
+
+  /* nav links */
+  --navLinkColor: #e14658;
+
+  /* headings */
+  --h1MainColor: #22252c;
+  --h1Alt1Color: #a8acb7;
+
+  --h1FontSize: 5em;
+
+  /* subheadings */
+  --h2Navy: #22252c;
+  --h2Pink: #e14658;
+
+  /* paragraph */
+  --pLightGrey: #e8e8f2;
+}
+
+body {
+  font-family: var(--body);
+  font-size: 10px;
+  color: var(--navy);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading);
+}
+
+h1 {
+  font-size: 6.5em;
+  color: var(--navy);
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 4em;
+  color: var(--midBlue);
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 3em;
+  color: var(--midBlue);
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 2em;
+  color: var(--midBlue);
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.8em;
+}
+
+span {
+  font-size: 2em;
+}
+
+i {
+  font-size: 2em;
+}
+
+label {
+  font-size: 1.8em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+}
+
+.app-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
