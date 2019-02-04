@@ -1,0 +1,8 @@
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 1rem 0;
+}
