@@ -1,3 +1,9 @@
 #inner-content {
-  margin-left: 17%;
+  margin-left: 12%;
+}
+
+@media (max-width: 1024px) {
+  #inner-content {
+    margin-left: 17%;
+  }
 }
