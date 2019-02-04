@@ -1,0 +1,16 @@
+.item-contain {
+  margin-top: 25px;
+}
+
+.item-contain h3,
+.item-contain p {
+  display: inline-block;
+}
+
+h3 {
+  margin-right: 10px;
+}
+
+article {
+  border-bottom: 1px solid var(--lightGrey);
+}
