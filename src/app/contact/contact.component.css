@@ -1,0 +1,11 @@
+.contact-heading {
+  margin-top: 0.9em;
+  margin-left: 0.9em;
+}
+
+#contact-form {
+  font-size: 1.5em;
+  width: 70%;
+  margin-left: 10%;
+  /* margin-top: 3.5em; */
+}
