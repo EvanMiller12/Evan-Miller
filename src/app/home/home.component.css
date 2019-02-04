@@ -26,9 +26,8 @@ h1 {
 .overview {
   border: 2px solid var(--navy);
   margin-top: 20px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
-  box-shadow: 7px 10px #65848c;
 }
 
 @media (max-width: 1024px) {
