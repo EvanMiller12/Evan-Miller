@@ -33,6 +33,7 @@
 }
 
 body {
+  margin: 0;
   font-family: var(--body);
   font-size: 10px;
   color: var(--navy);
@@ -45,6 +46,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading);
+  margin: 0;
 }
 
 h1 {
@@ -53,19 +55,27 @@ h1 {
   font-weight: 800;
   letter-spacing: 2.5px;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: 4em;
   color: var(--midBlue);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1.5px;
+  margin-top: 0;
+}
+
+h2 i {
+  font-size: 1.2em;
+  margin-right: 10px;
 }
 
 h3 {
-  font-size: 3em;
-  color: var(--midBlue);
-  font-weight: 500;
+  font-size: 2.2em;
+  color: var(--lightBlue);
+  letter-spacing: 1.2px;
+  font-weight: 200;
 }
 
 h4 {
@@ -95,13 +105,35 @@ ul {
   padding: 0;
 }
 
+li {
+  font-size: 1.6em;
+}
+
 img {
   max-width: 100%;
   border-radius: 5px;
 }
 
+a {
+  font-size: 1.6em;
+  color: var(--midGrey);
+}
+
 a:hover {
   text-decoration: none;
+}
+
+article {
+  padding: 25px;
+}
+
+.item-contain {
+  padding: 25px 0;
+  border-bottom: 1px solid var(--lightGrey);
+}
+
+.item-contain:last-child {
+  border: none;
 }
 
 .heading {
@@ -109,9 +141,41 @@ a:hover {
 }
 
 .app-section {
-  width: 80%;
-  margin: 0 auto;
-  padding: 50px 0;
+  width: 85%;
+  margin: 0 8%;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 100px;
+  padding-left: 25px;
+  overflow-y: scroll;
+}
+
+.app-section h1 {
+  position: fixed;
+  top: 10px;
+  left: 12%;
+  font-size: 60px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 0px;
+  border-left: 1px solid var(--midBlue);
+}
+
+.app-section h1:before,
+.app-section h1:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  border: 1px solid var(--navy);
+  height: 5px;
+  width: 100%;
+}
+
+.app-section h1:before {
+  top: 0;
+}
+.app-section h1:after {
+  bottom: 0;
 }
 
 @media (max-width: 650px) {
