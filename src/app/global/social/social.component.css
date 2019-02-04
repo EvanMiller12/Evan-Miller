@@ -1,0 +1,28 @@
+.social-nav {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: var(--lightGrey);
+  /* border-top: 1px solid var(--navy); */
+}
+
+.social-nav i {
+  color: var(--navy);
+
+  transition: all ease-in-out 0.5s;
+}
+
+.social-nav i:hover {
+  color: var(--midBlue);
+}
+
+@media (max-width: 1024px) {
+  .social-nav {
+    width: 89%;
+  }
+}
