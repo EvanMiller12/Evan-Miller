@@ -100,14 +100,9 @@ label {
   font-size: 1.8em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-/* li {
+li {
   font-size: 1.6em;
-} */
+}
 
 img {
   max-width: 100%;
@@ -115,7 +110,7 @@ img {
 }
 
 a {
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
   color: var(--midGrey);
 }
 
@@ -128,7 +123,7 @@ article {
 }
 
 .item-contain {
-  padding: 25px 0;
+  padding: 5px 0;
   border-bottom: 1px solid var(--lightGrey);
 }
 
@@ -136,9 +131,9 @@ article {
   border: none;
 }
 
-.heading {
+/* .heading {
   display: none;
-}
+} */
 
 .app-section {
   width: 80%;
@@ -149,7 +144,7 @@ article {
   overflow-y: scroll;
 }
 
-.app-section h1 {
+/* .app-section h1 {
   position: fixed;
   top: 10px;
   left: 12%;
@@ -158,9 +153,9 @@ article {
   font-size: 4.5em;
   letter-spacing: 0px;
   border-left: 1px solid var(--midBlue);
-}
+} */
 
-.app-section h1:before,
+/* .app-section h1:before,
 .app-section h1:after {
   content: "";
   position: absolute;
@@ -168,14 +163,14 @@ article {
   border: 1px solid var(--navy);
   height: 5px;
   width: 100%;
-}
+} */
 
-.app-section h1:before {
+/* .app-section h1:before {
   top: 0;
 }
 .app-section h1:after {
   bottom: 0;
-}
+} */
 
 @media (max-width: 1024px) {
   .app-section {

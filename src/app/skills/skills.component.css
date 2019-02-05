@@ -1,16 +1,49 @@
-.item-contain {
-  margin-top: 25px;
-}
-
-.item-contain h3,
+/* .item-contain h3,
 .item-contain p {
   display: inline-block;
-}
-
-h3 {
-  margin-right: 10px;
-}
+} */
 
 article {
   border-bottom: 1px solid var(--lightGrey);
 }
+
+.skills-overview {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border: 1px solid var(--lightBlue);
+  padding: 5px;
+  /* text-align: center; */
+}
+
+.skills-overview div {
+  width: 33.3%;
+  text-align: center;
+  vertical-align: center;
+  padding: 25px 0;
+  background-color: var(--lightGrey);
+  border-right: 2px solid white;
+}
+
+.skills-overview div h3 {
+  color: var(--midBlue);
+}
+
+/* .languages {
+  background-color: #dcdcdc;
+}
+
+.frameworks {
+  background-color: #d3d3d3;
+}
+
+.tech-and-tools {
+  background-color: #c0c0c0;
+} */
+/* 
+@media (max-width: 414px) {
+  .item-contain h3,
+  .item-contain p {
+    display: block;
+  }
+} */
