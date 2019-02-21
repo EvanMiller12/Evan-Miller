@@ -118,6 +118,10 @@ a:hover {
   text-decoration: none;
 }
 
+b {
+  color: var(--lightBlue);
+}
+
 article {
   padding: 25px;
 }
